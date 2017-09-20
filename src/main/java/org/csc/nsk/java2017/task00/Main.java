@@ -6,16 +6,16 @@
 
 package org.csc.nsk.java2017.task00;
 
-public class Main {
-	public static void main(String[] args) {
-		final Main main = new Main();
-		main.run();
-	}
+public final class Main {
+    public static void main(final String[] args) {
+        final Main main = new Main();
+        main.run();
+    }
 
-	private Main() {
-	}
+    private Main() {
+    }
 
-	private void run() {
-		System.out.println("Hello world.");
-	}
+    private void run() {
+        System.out.println("Hello world.");
+    }
 }
