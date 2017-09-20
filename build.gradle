@@ -6,9 +6,11 @@ repositories {
 }
 
 apply plugin: 'java'
+apply plugin: 'application'
 
 sourceCompatibility = 1.8
 
+mainClassName = 'org.csc.nsk.java2017.task00.Main'
 
 dependencies {
     // Low-level toolbox
