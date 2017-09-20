@@ -6,11 +6,18 @@ repositories {
 }
 
 apply plugin: 'java'
-apply plugin: 'application'
 
 sourceCompatibility = 1.8
 
-mainClassName = 'org.csc.nsk.java2017.task00.Main'
+jar {
+    destinationDir = file("$rootDir/out/jarred")
+    manifest {
+        attributes \
+                'Implementation-Title': 'CSC NSK Java 2017 Task00',
+                'Implementation-Version': version,
+                'Main-Class': 'org.csc.nsk.java2017.task00.Main'
+    }
+}
 
 dependencies {
     // Low-level toolbox
