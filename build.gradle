@@ -11,6 +11,15 @@ apply plugin: 'checkstyle'
 
 sourceCompatibility = 1.8
 
+jar {
+    manifest {
+        attributes \
+                'Implementation-Title': 'CSC NSK Java 2017 Task00',
+                'Implementation-Version': version,
+                'Main-Class': 'org.csc.nsk.java2017.task00.Main'
+    }
+}
+
 dependencies {
     // Low-level toolbox
     compileOnly 'org.projectlombok:lombok:1.16.10'
