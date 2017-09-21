@@ -3,7 +3,7 @@
  * ru.compscicenter.java2016
  */
 
-package org.csc.nsk.java2017.task01.set;
+package org.csc.nsk.java2017.task01;
 
 import java.util.Collection;
 import java.util.Iterator;

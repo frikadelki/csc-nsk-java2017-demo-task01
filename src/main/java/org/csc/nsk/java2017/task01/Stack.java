@@ -4,7 +4,7 @@
  * Created by frikadelki on 2017/9/21
  */
 
-package org.csc.nsk.java2017.task01.stack;
+package org.csc.nsk.java2017.task01;
 
 /**
  * @see <a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)">Stack Data Type</a>
