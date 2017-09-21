@@ -6,9 +6,13 @@
 
 package org.csc.nsk.java2017.task01.stack;
 
-public interface Stack<T> extends Iterable<T> {
+/**
+ * @see <a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)">Stack Data Type</a>
+ * @param <TElement> type of elements this stack will hold
+ */
+public interface Stack<TElement> extends Iterable<TElement> {
     int size();
 
-    void push(T element);
-    T pop();
+    void push(TElement element);
+    TElement pop();
 }

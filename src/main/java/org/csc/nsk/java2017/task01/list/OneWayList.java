@@ -6,18 +6,22 @@
 
 package org.csc.nsk.java2017.task01.list;
 
-public interface OneWayList<T> extends Iterable<T> {
+/**
+ * @see <a href="https://en.wikipedia.org/wiki/Linked_list#Singly_linked_list">Singly Linked List</a>
+ * @param <TElement> type of elements this List will hold
+ */
+public interface OneWayList<TElement> extends Iterable<TElement> {
     int ELEMENT_NOT_FOUND = -1;
 
     int size();
-    T get(int index);
+    TElement get(int index) throws IndexOutOfBoundsException;
 
-    boolean contains(T element);
-    int indexOf(T element);
+    boolean contains(TElement element);
+    int indexOf(TElement element);
 
-    void addFirst(T element);
-    void add(T element, int index);
+    void addFirst(TElement element);
+    void add(TElement element, int index) throws IndexOutOfBoundsException;
 
-    T removeFirst();
-    T remove(int index);
+    TElement removeFirst() throws IndexOutOfBoundsException;
+    TElement remove(int index) throws IndexOutOfBoundsException;
 }
