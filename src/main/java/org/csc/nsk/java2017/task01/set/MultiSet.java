@@ -22,7 +22,7 @@ import java.util.Iterator;
 public interface MultiSet<E> extends Collection<E> {
 
     /**
-     * Returns the number of elements in this multiset, including all duplicates
+     * Returns the number of elements in this multiset, including all duplicates.
      *
      * @return the number of elements in this multiset, including all duplicates
      */

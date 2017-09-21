@@ -5,6 +5,6 @@
  */
 
 /**
- * Zero ground for all tasks.
+ * Root package for container task.
  */
 package org.csc.nsk.java2017.task01;
