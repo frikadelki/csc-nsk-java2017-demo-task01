@@ -7,4 +7,4 @@
 /**
  * Zero ground for all tasks.
  */
-package org.csc.nsk.java2017.task00;
+package org.csc.nsk.java2017.task01;

@@ -14,17 +14,13 @@ sourceCompatibility = 1.8
 jar {
     manifest {
         attributes \
-                'Implementation-Title': 'CSC NSK Java 2017 Task00',
+                'Implementation-Title': 'CSC Nsk Java 2017 Task01 - Containers',
                 'Implementation-Version': version,
-                'Main-Class': 'org.csc.nsk.java2017.task00.Main'
+                'Main-Class': 'org.csc.nsk.java2017.task01.Main'
     }
 }
 
 dependencies {
-    // Low-level toolbox
-    compileOnly 'org.projectlombok:lombok:1.16.10'
-    compile 'com.google.code.gson:gson:2.5'
-
     testCompile 'junit:junit:4.12'
     testCompile 'org.projectlombok:lombok:1.16.10'
 }

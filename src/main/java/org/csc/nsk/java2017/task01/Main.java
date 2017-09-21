@@ -4,7 +4,7 @@
  * Created by frikadelki on 2017/9/21
  */
 
-package org.csc.nsk.java2017.task00;
+package org.csc.nsk.java2017.task01;
 
 public final class Main {
     public static void main(final String[] args) {
